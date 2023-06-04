@@ -1,0 +1,17 @@
+.text-convert {
+  display: flex;
+  color: #fff;
+  font-family: "Inter";
+  justify-content: center;
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+  margin: 60px auto;
+  width: 85%;
+}
+
+@media (max-width: 1000px) {
+  .text-convert {
+    margin: 30px auto;
+  }
+}

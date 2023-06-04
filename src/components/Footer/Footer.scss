@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+}
+
+a {
+  color: #000000;
+}
+
+@media (max-width: 1000px) {
+  .footer {
+    margin-top: 20px;
+    margin-left: -15px;
+    position: absolute;
+  }
+}
